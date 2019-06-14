@@ -6,7 +6,7 @@ def line(current_number)
   new_line = []
   i = 0 
  new_line.push( "#{i +1}. #{current_number}")
- return "The line is currently: #{new_line.join"
+ return "The line is currently: #{new_line.join(, )"
   
   #{current_number}"
   end
