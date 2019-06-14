@@ -1,6 +1,6 @@
 # Write your code here.
 def line(current_number)
-  when current_number == 0 
+  while current_number == 0 
     puts "The line is currently empty."
   end
 end
