@@ -5,7 +5,8 @@ def line(current_number)
   else 
   new_line = []
   i = 0 
- newer = "#{i +1}. #{current_number}"
+ new_line.push( "#{i +1}. #{current_number}")
+ return "The line is currently: #{new_line.join"
   
   #{current_number}"
   end
